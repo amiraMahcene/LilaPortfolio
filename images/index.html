@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="#">My.Portfolio</a>
+            <div class="orbiting-circle"></div>
+        </div> 
+        <ul class="list">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#cont">Contact me</a></li>
+        </ul>
+    </div> 
+    <div class="container">
+        <div class="content" id="content">
+            <div class="portfolio" id="portfolio">
+                <h1 id="color">Hello, I'm Lila B,</h1>
+                <h1>Frontend Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, <br> Vitae odit aperiam quasi dolor in.</p>
+                <button class="link">Download CV</button>
+                <div id="s1"><img src="pf2.png" alt=""></div>
+            </div>
+            <h2>Projects</h2>
+            <div class="projects" id="projects">
+                <div class="project">
+                    <a href="#"><div class="img" id="project1"><video muted autoplay loop src="Untitled design.mp4"></video></div></a>
+                    <h3>Headphone Store Landing Page</h3>
+                    <p>Lorem ipsum dolor sit amet consecte <br> tur adipisicing elit.</p>
+                    <button class="link">Live Preview</button>
+                    <a href="#" class="a"> Check on GITHUB</a>
+                </div>
+                <div class="project">
+                    <a href="#"><div class="img" id="project2"><video muted autoplay loop src="Untitled design.mp4"></video></div></a>
+                    <h3>Artificial Inteligence Services Landing Page</h3>
+                    <p>Lorem ipsum dolor sit amet consecte <br> tur adipisicing elit.</p>
+                    <button class="link">Live Preview</button>
+                    <a href="#" class="a"> Check on GITHUB</a>
+                </div>
+                <div class="project">
+                    <a href="#"><div class="img" id="project3" style="border: 1px solid #ccc;"><video muted autoplay loop src="Untitled design.mp4"></video></div></a>
+                    <h3> Landing Page for frontend developer</h3>
+                    <p>Lorem ipsum dolor sit amet consecte <br> tur adipisicing elit.</p>
+                    <button class="link">Live Preview</button>
+                    <a href="#"  class="a"> Check on GITHUB</a>
+                </div>
+            </div>
+            <h2>Technologies</h2>
+            <div class="technologies" id="technologies">
+                <ul>
+                    <li>
+                        HTML<span class="level"> Advanced</span>
+                        <br><span class="empty"></span>
+                    </li>
+                    <li>
+                        CSS<span class="level" style="margin-left: 405px;"> Advanced</span>
+                        <br><span class="empty"></span>
+                    </li>
+                    <li>
+                        GIT<span class="level" style="margin-left: 405px;"> Advanced</span>
+                        <br><span class="empty"></span>
+                    </li>
+                    <li>
+                        JS & Jquery<span class="level" style="margin-left: 365px;"> Regular</span>
+                        <br><span class="empty" style="width: 300px;"></span>
+                    </li>
+                </ul>
+            <h2 style="margin-top: -75px;margin-left: 150px;">About Me</h2>
+                <div class="about" id="about">
+                    <p style="margin-left: -170px;">Hi! My name is Lila B , I'm a frontend developer <br> based in Constantine, Algeria. <br> I have a strong fondation in HTML, CSS and Java Script <br> I create websites with a focus on details, <br>and have a passion for creating seamless user experiance. <br>I'm available to work!</p>
+                    <h3>My email: Lila.B@gmail.com</h3>
+                    <a href="#" class="link" style="margin-top: 100px; margin-left: -170px;">contact me</a>
+                </div>
+            </div>
+            <h2 style="margin-top: -45px;">Contact Me</h2>
+            <div class="contact" id="cont">
+                <form>
+                    <input type="text" placeholder="Name" min="10"><br>
+                    <input type="email" placeholder="E-mail"><br>
+                    <input type="tel" placeholder="Phone">
+                    <textarea placeholder="Describe your issue"></textarea>
+                    <input type="submit" id="submit" style="margin-top: 20px;margin-left: 250px;">
+                </form>
+            </div>
+        </div>
+    </div> 
+    <script>
+        document.getElementById("submit").addEventListener('click',function()
+    {
+        alert("we will answer you")
+    })
+    </script>
+</body>
+</html>
